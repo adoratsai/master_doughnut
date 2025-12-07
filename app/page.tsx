@@ -30,7 +30,14 @@ export default function HomePage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-secondary via-background to-secondary py-24 px-4">
+      <section className="relative bg-gradient-to-br from-secondary via-background to-secondary py-24 px-4 z-10">
+        <div className="fixed top-20 right-4 w-32 h-32 md:w-48 md:h-48 pointer-events-none z-10">
+          <img
+            src="/螢幕擷取畫面 2025-12-07 223817.png"
+            alt="decoration"
+            className="w-full h-full object-cover rounded-lg shadow-lg"
+          />
+        </div>
         <div className="container mx-auto text-center">
           <h1 className="font-serif text-6xl md:text-8xl text-primary mb-6 text-balance">MASTER DOUGHNUT</h1>
           <p className="text-lg md:text-xl text-foreground/80 mb-8 max-w-2xl mx-auto leading-relaxed">
